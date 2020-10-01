@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,7 +36,7 @@ public class verifycode extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verifycode);
-        
+
         mcallbacks = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
             @Override
             public void onCodeSent(@NonNull String s, @NonNull PhoneAuthProvider.ForceResendingToken forceResendingToken) {
@@ -101,6 +102,16 @@ public class verifycode extends AppCompatActivity {
                 TimeUnit.SECONDS,   // Unit of timeout
                 TaskExecutors.MAIN_THREAD,// Activity (for callback binding)
                 mcallbacks);        // OnVerificationStateChangedCallbacks
+    }
+
+    public void onClick(View view){
+        String code = mPinView.getText().toString();
+        if(!code.isEmpty()){
+            verifyCode(code);
+        }
+
+
+
     }
 
 

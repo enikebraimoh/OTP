@@ -47,6 +47,7 @@
         android:layout_marginTop="70dp"
         android:background="@drawable/button"
         android:text="CONFIRM"
+        android:onClick="onClick"
         android:drawablePadding="10dp"
         android:drawableRight="@drawable/ic_paperplane"
         android:fontFamily="@font/opensansregular"
@@ -58,17 +59,5 @@
         android:textColor="@color/white"
         android:layout_height="wrap_content"/>
 
-    <TextView
-        android:id="@+id/phone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="70dp"
-        android:gravity="center"
-        android:text="phonenumber"
-        android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        android:fontFamily="@font/opensansregular"
-        android:textColor="#ffffff" />
 
 </LinearLayout>
