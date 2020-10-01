@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "698042919966",
+    "firebase_url": "https://otp-project-11011.firebaseio.com",
+    "project_id": "otp-project-11011",
+    "storage_bucket": "otp-project-11011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698042919966:android:d7ca2f309ebe17c368120f",
+        "android_client_info": {
+          "package_name": "com.enike.otp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698042919966-hvvprcd1gcv56u35hse94ig3alopo1b9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1g6ZBDcOS9eCLbw3x-bzpqercQSgLO7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698042919966-hvvprcd1gcv56u35hse94ig3alopo1b9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
